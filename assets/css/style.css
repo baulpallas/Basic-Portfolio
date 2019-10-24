@@ -19,14 +19,14 @@
   position: relative;
 }
 
-.border-container {
+.header-container {
   padding: 41px;
   background-color: white;
   float: left;
   width: 100%;
   margin: 0px;
   position: absolute;
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid #dddddd;
 }
 
 h1 {
@@ -61,7 +61,7 @@ h1 {
   display: inline-block;
   text-align: left;
   position: relative;
-  border: 2px solid gray;
+  border: 2px solid #dddddd;
 }
 
 .aboutmecontent {
@@ -87,6 +87,19 @@ h2 {
 
 .bio-description {
   float: right;
+}
+
+.footer {
+  padding: 20px 0px 6px 0px;
+  width: 100%;
+  background-color: #666666;
+  position: relative;
+  border-top: 6px solid #4aaaa5;
+}
+
+.copyright {
+  color: white;
+  font-size: 12px;
 }
 
 body {
