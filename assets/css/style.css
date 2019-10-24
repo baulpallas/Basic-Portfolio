@@ -1,18 +1,86 @@
-.header {
-  background-color: #ffffff;
-  padding: 10px;
+.full-container {
+  width: 100%;
+  float: left;
 }
 
-.title {
+#Video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.header-content {
+  background-color: white;
+  width: 960px;
+  margin: 0px;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+
+.border-container {
+  padding: 41px;
+  background-color: white;
+  float: left;
+  width: 100%;
+  position: absolute;
+  border-bottom: 2px solid lightgrey;
+}
+
+h1 {
+  margin: 0px;
+  padding: 26px;
   background-color: #4aaaa5;
-  width: 18%;
-  padding: 30px;
-  margin: 0px 200px; 
+  width: 15%;
   color: white;
   font-size: 25px;
-  border
+  float: left;
+}
+
+.nav {
+  background-color: white;
+  width: 5%;
+  padding: 30px;
+  padding-bottom: -15px;
+  float: right;
+  color: grey;
+  text-decoration: inherit;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.about-me {
+  background-color: white;
+  width: 960px;
+  margin: 0px;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  padding: 20px;
+}
+
+.header {
+  border-bottom: 0.5px solid lightgrey;
+}
+
+h2 {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#paul {
+  box-align: left;
+}
+
+.bio-description {
+  float: right;
 }
 
 body {
-  margin: 0px; 
+  margin: 0px;
 }
