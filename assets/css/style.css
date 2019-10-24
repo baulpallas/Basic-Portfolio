@@ -1,6 +1,7 @@
 .full-container {
   width: 100%;
   float: left;
+  text-align: center;
 }
 
 #Video {
@@ -16,7 +17,6 @@
   margin: 0px;
   display: inline-block;
   position: relative;
-  height: 100%;
 }
 
 .border-container {
@@ -24,8 +24,9 @@
   background-color: white;
   float: left;
   width: 100%;
+  margin: 0px;
   position: absolute;
-  border-bottom: 2px solid lightgrey;
+  border-bottom: 2px solid gray;
 }
 
 h1 {
@@ -40,9 +41,8 @@ h1 {
 
 .nav {
   background-color: white;
-  width: 5%;
-  padding: 30px;
-  padding-bottom: -15px;
+  width: 3%;
+  padding: 35px 30px 20px 30px;
   float: right;
   color: grey;
   text-decoration: inherit;
@@ -54,23 +54,31 @@ h1 {
   clear: both;
 }
 
-.about-me {
+.aboutme-container {
   background-color: white;
   width: 960px;
   margin: 0px;
   display: inline-block;
+  text-align: left;
   position: relative;
-  height: 100%;
-  padding: 20px;
+  border: 2px solid gray;
 }
 
-.header {
-  border-bottom: 0.5px solid lightgrey;
+.aboutmecontent {
+  width: 95%;
+  display: inline-block;
+  text-align: left;
+  margin: 20px;
 }
 
 h2 {
-  margin-top: 20px;
+  margin-top: 15px;
+  padding-bottom: 20px;
   text-align: left;
+  font-size: 23px;
+  color: #4aaaa5;
+  width: 100%;
+  border-bottom: 2px solid gray;
 }
 
 #paul {
